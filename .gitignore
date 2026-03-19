@@ -1,0 +1,36 @@
+# Credentials & secrets
+.credentials.json
+settings.local.json
+
+# Conversation history & sessions
+history.jsonl
+projects/**/*.jsonl
+projects/**/tool-results/
+projects/**/subagents/
+session-env/
+
+# Local cache & temp files
+cache/
+debug/
+backups/
+file-history/
+paste-cache/
+shell-snapshots/
+*.backup*
+
+# Plugin cache & marketplace repos (re-downloadable)
+plugins/cache/
+plugins/marketplaces/
+plugins/install-counts-cache.json
+
+# NotebookLM: auth tokens & browser state
+skills/notebooklm/data/
+skills/notebooklm/.venv/
+skills/notebooklm/__pycache__/
+skills/notebooklm/scripts/__pycache__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/

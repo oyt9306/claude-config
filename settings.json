@@ -1,0 +1,82 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Users\\YeongtakOh\\.agent-paperclip\\hooks\\status-reporter.js\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Users\\YeongtakOh\\.agent-paperclip\\hooks\\status-reporter.js\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Users\\YeongtakOh\\.agent-paperclip\\hooks\\status-reporter.js\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Users\\YeongtakOh\\.agent-paperclip\\hooks\\status-reporter.js\""
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Users\\YeongtakOh\\.agent-paperclip\\hooks\\status-reporter.js\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true,
+    "document-skills@anthropic-agent-skills": true,
+    "example-skills@anthropic-agent-skills": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
+      }
+    }
+  }
+}
