@@ -23,14 +23,15 @@ plugins/cache/
 plugins/marketplaces/
 plugins/install-counts-cache.json
 
-# NotebookLM: auth tokens & browser state
-skills/notebooklm/data/
-skills/notebooklm/.venv/
-skills/notebooklm/__pycache__/
-skills/notebooklm/scripts/__pycache__/
+# NotebookLM: nested git repo, auth tokens & browser state (re-setup per machine)
+skills/notebooklm/
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 .venv/
+
+# Local agent memory & auth cache (machine-specific)
+agent-memory/
+mcp-needs-auth-cache.json
