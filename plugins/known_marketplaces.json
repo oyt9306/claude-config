@@ -30,5 +30,13 @@
     },
     "installLocation": "C:\\Users\\YeongtakOh\\.claude\\plugins\\marketplaces\\superpowers-marketplace",
     "lastUpdated": "2026-03-16T06:09:44.626Z"
+  },
+  "hipocampus": {
+    "source": {
+      "source": "github",
+      "repo": "kevin-hs-sohn/hipocampus"
+    },
+    "installLocation": "C:\\Users\\YeongtakOh\\.claude\\plugins\\marketplaces\\hipocampus",
+    "lastUpdated": "2026-03-26T04:44:10.523Z"
   }
 }

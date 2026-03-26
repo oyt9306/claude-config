@@ -57,7 +57,8 @@
     "claude-mem@thedotmack": true,
     "document-skills@anthropic-agent-skills": true,
     "example-skills@anthropic-agent-skills": true,
-    "superpowers@claude-plugins-official": true
+    "superpowers@claude-plugins-official": true,
+    "hipocampus@hipocampus": true
   },
   "extraKnownMarketplaces": {
     "thedotmack": {
@@ -76,6 +77,12 @@
       "source": {
         "source": "github",
         "repo": "obra/superpowers-marketplace"
+      }
+    },
+    "hipocampus": {
+      "source": {
+        "source": "github",
+        "repo": "kevin-hs-sohn/hipocampus"
       }
     }
   }

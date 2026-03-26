@@ -40,6 +40,16 @@
         "lastUpdated": "2026-03-23T00:30:24.400Z",
         "gitCommitSha": "363923f74aa9cd7b470c0aaa73dee629a8bfdc90"
       }
+    ],
+    "hipocampus@hipocampus": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\YeongtakOh\\.claude\\plugins\\cache\\hipocampus\\hipocampus\\0.2.1",
+        "version": "0.2.1",
+        "installedAt": "2026-03-26T04:44:19.301Z",
+        "lastUpdated": "2026-03-26T04:44:19.301Z",
+        "gitCommitSha": "17fffc79ed6af057b19066eacf64bfaf7f449969"
+      }
     ]
   }
 }
