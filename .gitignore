@@ -35,3 +35,16 @@ __pycache__/
 # Local agent memory & auth cache (machine-specific)
 agent-memory/
 mcp-needs-auth-cache.json
+
+# hipocampus hooks settings (machine-specific absolute paths)
+.claude/settings.json
+
+# hipocampus - personal memory (don't commit)
+MEMORY.md
+USER.md
+SCRATCHPAD*.md
+WORKING*.md
+TASK-QUEUE.md
+memory/
+knowledge/
+plans/

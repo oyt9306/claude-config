@@ -85,5 +85,6 @@
         "repo": "kevin-hs-sohn/hipocampus"
       }
     }
-  }
+  },
+  "autoMemoryEnabled": true
 }
